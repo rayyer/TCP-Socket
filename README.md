@@ -16,11 +16,11 @@ composer update
 ```
 Once composer is finished, you need to add the service provider. Open ```config/app.php```, and add a new item to the providers array.
 ```
-'Parsidev\Socket\SocketServiceProvider',
+Parsidev\Socket\SocketServiceProvider::class,
 ```
 Next, add a Facade for more convenient usage. In ```config/app.php``` add the following line to the aliases array:
 ```
-'Socket' => 'Parsidev\Socket\Facades\Socket',
+'Socket' => Parsidev\Socket\Facades\Socket::class,
 ```
 Publish config files:
 ```
