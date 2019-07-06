@@ -1,11 +1,11 @@
 {
-    "name": "parsidev/tcp-socket",
+    "name": "shehrojkhan786/tcp-socket",
     "description": "TCP Socket for Laravel 5.7",
     "license": "MIT",
     "authors": [
         {
-            "name": "Mohammad Reza",
-            "email": "info@parsidev.ir"
+            "name": "shehroj khan",
+            "email": "shehrojkhan786@gmail.com"
         }
     ],
     "require": {
