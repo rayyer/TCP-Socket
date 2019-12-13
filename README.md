@@ -3,7 +3,7 @@ Laravel TCP Socket
 
 installation
 ------------
-For install this package Edit your project's ```composer.json``` file to require parsidev/tcp-socket
+For install this package Edit your project's ```composer.json``` file to require rayyer/tcp-socket
 
 ```php
 "require": {
